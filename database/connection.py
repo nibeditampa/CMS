@@ -33,6 +33,7 @@ def init_database():
             name TEXT NOT NULL,
             specialization TEXT,
             schedule TEXT,
+            available_days TEXT,   
             created_at TEXT,
             updated_at TEXT
         )
